@@ -8,23 +8,18 @@
         span
           i.fas.fa-info
       h1 Introducción
+
+    .row.p-4(style="background-color:#FFF6E7;border-radius:15px;" data-aos="zoom-in")
+      .col-md-2
+        img(src="@/assets/curso/introduccion/1.png")
+      .col-md-10(style="place-self:center;")
+        p La salud mental en la población privada de la libertad, es una de las principales dificultades en los establecimientos de reclusión; el ingreso de las personas privadas de la libertad con afectaciones en su salud mental por consumo de sustancias psicoactivas, problemáticas familiares y sociales, ponen en riesgo la psiquis del individuo, aunado a las condiciones de infraestructura y hacinamiento que encuentran al ingresar a un Establecimiento de Reclusión del Orden Nacional (ERON), es por ellos que el talento humano de los centros penitenciarios deben apropiarse de herramientas que permitan apoyar al privado de la libertad en cada una de las etapas de su prisionalización. Conozcamos un poco más: 
     
-    figure.mb-5
+    figure.mt-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
     
-    p.mb-5 La necesidad de mitigar la pandemia por COVID-19 ha obligado a la comunidad científica internacional, a desarrollar una serie de investigaciones y desarrollos tendientes a presentar una vacuna para hacerle frente a esta enfermedad que aumenta día a día su morbi mortalidad en Colombia. Es así, como en diciembre de 2020, la comunidad científica presenta los resultados de varios desarrollos de vacunas, que ofrecen eficacia y seguridad, respaldados por estudios clínicos rigurosos.
-
-    figure.mb-5
-      img(src="@/assets/curso/banner-intro.jpg", alt="Texto que describa la imagen")
-      figcaption Imagen 1. Vacunación
-
-    p.mb-0 La llegada de nuevas vacunas al país supone un reto para el talento humano en salud responsable de la vacunación y desarrollar habilidades para ofrecer una orientación oportuna y segura a las personas objeto de la vacuna.
-      br
-      br
-      | En ese orden de ideas, este componente formativo guía al aprendiz hacia la identificación de los aspectos normativos, técnicos y operativos de la vacunación contra COVID19 en Colombia y de las generalidades de la infección por SARS-2 COVID 19.
-
+ 
 </template>
 
 <script>

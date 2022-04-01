@@ -1,148 +1,182 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    
-    .titulo-principal
-      .h3 Producción Audiovisual
-    
-    #t_2_1.titulo-segundo
-      .h4 2.1 Infografía Animada
-    
-    p.mb-4 Propuesta infográfica en animación que refuerce un tema y matice conceptos dados de manera creativa y con intención pedagógica.
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
+    .titulo-principal.color-acento-contenido
+      .titulo-principal__numero
+        span 2
+      h1 Estilos de afrontamiento
 
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2cnKTwQ85fg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    .row
+      .col-md-6.mb-2
+        .bloque-texto-c.color-secundario.p-4(style="background-color: #DFEAF1;height:100%" data-aos="zoom-in")
+          i.fas.fa-quote-right
+          p.mb-2 El afrontamiento es un proceso que ayuda a regular las consecuencias negativas del estrés, es un refuerzo cognitivo y conductual orientado a manejar, reducir, minimizar, dominar o tolerar las demandas externas e internas que aparecen y generan estrés. El afrontamiento ayuda a identificar elementos que intervienen en la relación dada entre situaciones de la vida estresantes y síntomas de enfermedad, actuando como regulador de la perturbación emocional.
+          strong(style="float: right;left: -10%;position: relative;") Según Casaretto (2003)
+      .col-md-6
+        img(src="@/assets/curso/tema2/1.png" data-aos="zoom-in-up")
 
-    #t_2_2.titulo-segundo
-      .h4 2.2 Video Motion
+    .mt-5
+      span.h2.text-white.p-2(style="background-color:#3BA3F8;" data-aos="fade-up") Tipos de afrontamiento
 
-    p.mb-4 Animación digital que crea la ilusión de movimiento mediante imágenes, fotografías, títulos, colores y diseños.
+    .row.mt-5
+      .col-md-1.d-md-block.d-none.d-lg-block.d-xl-block
+        img(src="@/assets/curso/tema1/34.png" data-aos="fade-left")
+      .col-md-11
+        p(data-aos="fade-up") Los tipos de afrontamiento están relacionados con aquellas predisposiciones personales del ser humano para hacer frente a diversas situaciones y son los que determinan el uso de ciertas estrategias de afrontamiento, así como la estabilidad temporal y situacional, estos pueden ser cambiantes dependiendo de las condiciones desencadenantes.
 
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/E7-BaX6ox9s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    h3.text-center(data-aos="fade-up") Existen dos estilos de afrontamiento:
 
-    #t_2_3.titulo-segundo
-      .h4 2.3 Motion + Presentador
+    .row.mt-4
+      .col-md-6.p-0
+        .p-5.text-center.justify-content-center.m-auto(style="background-color:#133D60;height:100%;" data-aos="flip-right")
+          img(src="@/assets/curso/tema2/2.png" data-aos="zoom-in" style="max-width:150px;display:inline;")
+          h4.mt-5.text-white(data-aos="fade-up") Centrados en el problema
+          p.mt-4.text-white(data-aos="fade-up") Tienen como objeto la resolución de la situación o la realización de conductas que modifiquen la fuente de estrés. La persona se centra en hacer frente a la situación, buscando soluciones al problema que ha provocado la disonancia cognitiva y ayuda a la persona, que es incapaz de tomar decisiones o toma decisiones impulsivas o inadecuadas, por no haber considerado algunos aspectos de la situación o las posibilidades de acción reales.
+      .col-md-6.p-0
+        .p-5.text-center.justify-content-center.m-auto(style="background-color:#197CCC;height:100%;" data-aos="flip-right")
+          img(src="@/assets/curso/tema2/3.png" data-aos="zoom-in" style="max-width:150px;display:inline;")
+          h4.mt-5.text-white(data-aos="fade-up") Centrados en la emoción
+          p.mt-4.text-white(data-aos="fade-up") Tienen como objetivo reducir o manejar el malestar emocional asociado o provocado por la situación, se busca que la persona tenga regulación de las consecuencias emocionales activadas por la presencia de la situación estresante, este tipo de estrategias vienen configuradas por todas aquellas reacciones que no resuelven el problema en sí mismo, pero que hacen sentir mejor al individuo en momentos de peligro o amenaza.
 
-    p.mb-4 Es el uso locutor + acompañamiento de imágenes como fondo, el estilo tiene una mezcla entre imagen viva y recursos gráficos vectoriales  se usa cuando un material tiene información de datos numéricos o gráficos de valores. 
+    p.mt-5(data-aos="fade-up") Por su parte, Carver, Scheier y Weintraub, en 1989, presentaron 12 estrategias de afrontamiento, las cuales mencionamos a continuación:
 
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/Ky73iaXuuTA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    .row.mt-5
+      .col-md-6.mb-2(style="place-self:center;")
+        img(src="@/assets/curso/tema2/4.png" data-aos="zoom-in")
+      .col-md-6
+        ol.lista-ol--cuadro
+          li(data-aos="fade-up") 
+            .lista-ol--cuadro__vineta
+              span 1
+            | Afrontamiento activo.
+          li(data-aos="fade-up") 
+            .lista-ol--cuadro__vineta
+              span 2
+            | La planificación
+          li(data-aos="fade-up") 
+            .lista-ol--cuadro__vineta
+              span 3
+            | La supresión de actividades competitivas.
+          li(data-aos="fade-up") 
+            .lista-ol--cuadro__vineta
+              span 4
+            | La postergación de afrontamiento.
+          li(data-aos="fade-up") 
+            .lista-ol--cuadro__vineta
+              span 5
+            | El soporte social instrumental y emocional.
+          li(data-aos="fade-up") 
+            .lista-ol--cuadro__vineta
+              span 6
+            | La reinterpretación positiva.
+          li(data-aos="fade-up") 
+            .lista-ol--cuadro__vineta
+              span 7
+            | La aceptación.
+          li(data-aos="fade-up") 
+            .lista-ol--cuadro__vineta
+              span 8
+            | La negación.
+          li(data-aos="fade-up") 
+            .lista-ol--cuadro__vineta
+              span 9
+            | El acudir a la religión.
+          li(data-aos="fade-up") 
+            .lista-ol--cuadro__vineta
+              span 10
+            | La expresión de las emociones.
+          li(data-aos="fade-up") 
+            .lista-ol--cuadro__vineta
+              span 11
+            | El uso del alcohol y drogas.
+          li(data-aos="fade-up") 
+            .lista-ol--cuadro__vineta
+              span 12
+            | Compromiso conductual y cognitivo.
 
-    #t_2_4.titulo-segundo
-      .h4 2.4 Animación 2D
+    .row.mt-4.p-5(style="background-color:#133D60;position:relative")
+      .col-md-4
+        img(src="@/assets/curso/tema1/14.png" data-aos="zoom-in-up" style="max-width:300px;")
+      .col-md-8(style="place-self:center;")
+        .titulo-segundo
+          h3.text-white(data-aos="zoom-in") Características
+        p.text-white(data-aos="fade-up") Existen tres características de las estrategias de afrontamiento, a partir de las cuales se pueden clasificar así: 
 
-    p.mb-4 Es el uso locutor + acompañamiento de imágenes como fondo, el estilo tiene una mezcla entre imagen viva y recursos gráficos vectoriales  se usa cuando un material tiene información de datos numéricos o gráficos de valores. 
+        a.boton.mt-4.indicador__container(
+          :href="obtenerLink('')"
+          target="_blank"
+          type="application/pdf"
+          @mouseover="mostrarIndicador = false"
+        )
+          span Descargar
+          i.fas.fa-file-download
+          .indicador--click(v-if="mostrarIndicador")
 
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/3b8VctSm558" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    br
+    .mt-5
+      span.h2.text-white.p-2(style="background-color:#3BA3F8;" data-aos="fade-up") Ventajas
 
-    #t_2_5.titulo-segundo
-      .h4 2.5 Video interactivo
+    .row.mt-5
+      .col-lg-1.col-md-1.col-sm-3.col-xs-12.mb-2
+        img(src="@/assets/curso/tema1/27.png" data-aos="fade-left")
+      .col-md-11.col-lg-11.col-sm-9.col-xs-12
+        p(data-aos="fade-right") Mediante la Resolución 1841 de 2013, el Ministerio de Salud y Protección Social adoptó el Plan Decenal de Salud Pública, estableciendo como parte de sus dimensiones, la de Convivencia y Salud Mental, como eje prioritario dentro de la cual propone la meta del Componente de Promoción de la convivencia social y de la salud mental.
 
-    p.mb-4 Visualización de videos con diferentes tipos de preguntas o anotaciones.
+    .row.mt-5.cont_full_4(style="position:relative;")
+      .col-lg-2.col-md-2(style="place-self:center;position:relative;")
+        h5.text-center(data-aos="fade-up") Entre las ventajas que se manejan están:
+      .col-md-9.col-lg-9(style="position:relative;")
+        SlyderF.mb-5(columnas="col-lg-3 col-xl-3 col-md-6")
+          .tarjeta.color-acento-contenido.p-4.pb-5.pt-5(style="min-height:280px;")
+            .row.justify-content-center.mb-3
+              .col-8
+                img(src='@/assets/curso/tema2/5.png' alt='')
+            h4.text-center Reducción de la ansiedad
+          .tarjeta.color-acento-contenido.p-4.pb-5.pt-5(style="min-height:280px;")
+            .row.justify-content-center.mb-3
+              .col-8
+                img(src='@/assets/curso/tema2/6.png' alt='')
+            h4.text-center Estados de ánimo mejorados
+          .tarjeta.color-acento-contenido.p-4.pb-5.pt-5(style="min-height:280px;")
+            .row.justify-content-center.mb-3
+              .col-8
+                img(src='@/assets/curso/tema2/7.png' alt='')
+            h4.text-center Pensamiento más claro
+          .tarjeta.color-acento-contenido.p-4.pb-5.pt-5(style="min-height:280px;")
+            .row.justify-content-center.mb-3
+              .col-8
+                img(src='@/assets/curso/tema2/8.png' alt='')
+            h4.text-center Una mayor sensación de calma o paz interior
+          .tarjeta.color-acento-contenido.p-4.pb-5.pt-5(style="min-height:280px;")
+            .row.justify-content-center.mb-3
+              .col-8
+                img(src='@/assets/curso/tema2/9.png' alt='')
+            h4.text-center Aumento de la autoestima
+          .tarjeta.color-acento-contenido.p-4.pb-5.pt-5(style="min-height:280px;")
+            .row.justify-content-center.mb-3
+              .col-8
+                img(src='@/assets/curso/tema2/10.png' alt='')
+            h4.text-center Riesgo reducido de depresión
+          .tarjeta.color-acento-contenido.p-4.pb-5.pt-5(style="min-height:280px;")
+            .row.justify-content-center.mb-3
+              .col-8
+                img(src='@/assets/curso/tema2/11.png' alt='')
+            h4.text-center Mejoras en las relaciones
 
-    figure.mb-5
-      .video
-        iframe(src="https://vizia.co/videos/94d994c5fe93f1b08a60eb/embed" allowtransparency="true" frameborder="0" scrolling="no" width="640" height="390")
 
-    #t_2_6.titulo-segundo
-      .h4 2.6 Infografías
 
-    p.mb-4 Es una herramienta de comunicación de alta precisión, el cual tiene una narrativa gráfica con un texto corto acompañada de elementos visuales que tienen como intención de captar rápidamente la atención del lector. 
-
-    figure.mb-5
-      img(src='@/assets/curso/infografia-1.jpg', alt='Infografía Fundamentos del Servicio de Interpretación')
-      figcaption Fundamentos del Servicio de Interpretación
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Fundamentos del Servicio de Interpretación
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/fundamentos_del_servicio_de_Interpretacion.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-2.jpg', alt='Infografía Plan de Negocios')
-      figcaption Plan de Negocios
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Plan de Negocios
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/plan_de_negocios.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-3.jpg', alt='Infografía Cobertura poblacional')
-      figcaption Cobertura poblacional
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Cobertura poblacional
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/cobertura_poblacional.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-4.jpg', alt='Infografía Historia de las microfinanzas: Mohammad Yunus')
-      figcaption Historia de las microfinanzas: Mohammad Yunus
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Historia de las microfinanzas: Mohammad Yunus
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/historia_de_las_microfinanzas_mohammad_yunus.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-5.jpg', alt='Infografía Psicología de la moda: sexualidad, ropa mágica, ropa malévola y ropa neurótica')
-      figcaption Psicología de la moda: sexualidad, ropa mágica, ropa malévola y ropa neurótica
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Psicología de la moda: sexualidad, ropa mágica, ropa malévola y ropa neurótica
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/psicologia_de_la_moda.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-
+      
 </template>
 
 <script>
 export default {
   name: 'Tema2',
+  components: {},
   data: () => ({
-    // variables de vue
+    indicadorTarjetaFlip: true,
+    indicadorTarjetaFlip2: true,
+    mostrarIndicador: true,
   }),
   mounted() {
     this.$nextTick(() => {
@@ -154,5 +188,15 @@ export default {
   },
 }
 </script>
-
-<style lang="sass"></style>
+<style lang="sass">
+.lista-ol--cuadro__vineta
+  background-color: #133D60
+.cont_full_4:before
+  content: ''
+  position: absolute
+  width: 108%
+  height: 100%
+  background-color: #DFEAF1
+  left: -4%
+  top: 26%
+</style>
