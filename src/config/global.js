@@ -3,7 +3,7 @@ export default {
     componenteFormativo: 'Estrategias de salud mental',
     descripcionCurso:
       'Describir las generalidades de la salud mental, brinda estrategias de autocuidado y explica los diferentes estilos de afrontamiento, a fin de facilitar herramientas que permitan aplicar una mejora continua en la calidad de vida de las personas privadas de la libertad.',
-    imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
   menuPrincipal: {

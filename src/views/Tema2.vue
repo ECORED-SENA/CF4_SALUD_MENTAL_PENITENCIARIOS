@@ -20,8 +20,7 @@
       span.h2.text-white.p-2(style="background-color:#3BA3F8;" data-aos="fade-up") Tipos de afrontamiento
 
     .row.mt-5
-      .col-md-1.d-md-block.d-none.d-lg-block.d-xl-block
-        img(src="@/assets/curso/tema1/34.png" data-aos="fade-left")
+      .col-md-1.d-md-block.d-none.d-lg-block.d-xl-block.cont_waves
       .col-md-11
         p(data-aos="fade-up") Los tipos de afrontamiento están relacionados con aquellas predisposiciones personales del ser humano para hacer frente a diversas situaciones y son los que determinan el uso de ciertas estrategias de afrontamiento, así como la estabilidad temporal y situacional, estos pueden ser cambiantes dependiendo de las condiciones desencadenantes.
 
@@ -104,7 +103,7 @@
         p.text-white(data-aos="fade-up") Existen tres características de las estrategias de afrontamiento, a partir de las cuales se pueden clasificar así: 
 
         a.boton.mt-4.indicador__container(
-          :href="obtenerLink('')"
+          :href="obtenerLink('/downloads/Estilos_de_afrontamiento.pdf')"
           target="_blank"
           type="application/pdf"
           @mouseover="mostrarIndicador = false"
@@ -118,8 +117,7 @@
       span.h2.text-white.p-2(style="background-color:#3BA3F8;" data-aos="fade-up") Ventajas
 
     .row.mt-5
-      .col-lg-1.col-md-1.col-sm-3.col-xs-12.mb-2
-        img(src="@/assets/curso/tema1/27.png" data-aos="fade-left")
+      .col-lg-1.col-md-1.col-sm-3.col-xs-12.mb-2.cont_waves2
       .col-md-11.col-lg-11.col-sm-9.col-xs-12
         p(data-aos="fade-right") Mediante la Resolución 1841 de 2013, el Ministerio de Salud y Protección Social adoptó el Plan Decenal de Salud Pública, estableciendo como parte de sus dimensiones, la de Convivencia y Salud Mental, como eje prioritario dentro de la cual propone la meta del Componente de Promoción de la convivencia social y de la salud mental.
 
@@ -131,37 +129,37 @@
           .tarjeta.color-acento-contenido.p-4.pb-5.pt-5(style="min-height:280px;")
             .row.justify-content-center.mb-3
               .col-8
-                img(src='@/assets/curso/tema2/5.png' alt='')
+                img(src='@/assets/curso/tema2/5.svg' alt='')
             h4.text-center Reducción de la ansiedad
           .tarjeta.color-acento-contenido.p-4.pb-5.pt-5(style="min-height:280px;")
             .row.justify-content-center.mb-3
               .col-8
-                img(src='@/assets/curso/tema2/6.png' alt='')
+                img(src='@/assets/curso/tema2/6.svg' alt='')
             h4.text-center Estados de ánimo mejorados
           .tarjeta.color-acento-contenido.p-4.pb-5.pt-5(style="min-height:280px;")
             .row.justify-content-center.mb-3
               .col-8
-                img(src='@/assets/curso/tema2/7.png' alt='')
+                img(src='@/assets/curso/tema2/7.svg' alt='')
             h4.text-center Pensamiento más claro
           .tarjeta.color-acento-contenido.p-4.pb-5.pt-5(style="min-height:280px;")
             .row.justify-content-center.mb-3
               .col-8
-                img(src='@/assets/curso/tema2/8.png' alt='')
+                img(src='@/assets/curso/tema2/8.svg' alt='')
             h4.text-center Una mayor sensación de calma o paz interior
           .tarjeta.color-acento-contenido.p-4.pb-5.pt-5(style="min-height:280px;")
             .row.justify-content-center.mb-3
               .col-8
-                img(src='@/assets/curso/tema2/9.png' alt='')
+                img(src='@/assets/curso/tema2/9.svg' alt='')
             h4.text-center Aumento de la autoestima
           .tarjeta.color-acento-contenido.p-4.pb-5.pt-5(style="min-height:280px;")
             .row.justify-content-center.mb-3
               .col-8
-                img(src='@/assets/curso/tema2/10.png' alt='')
+                img(src='@/assets/curso/tema2/10.svg' alt='')
             h4.text-center Riesgo reducido de depresión
           .tarjeta.color-acento-contenido.p-4.pb-5.pt-5(style="min-height:280px;")
             .row.justify-content-center.mb-3
               .col-8
-                img(src='@/assets/curso/tema2/11.png' alt='')
+                img(src='@/assets/curso/tema2/11.svg' alt='')
             h4.text-center Mejoras en las relaciones
 
 
@@ -199,4 +197,10 @@ export default {
   background-color: #DFEAF1
   left: -4%
   top: 26%
+.cont_waves
+ background: url(../assets/curso/tema1/2.svg)
+.cont_waves2
+ background: url(../assets/curso/tema1/27.svg)
+ background-repeat: no-repeat
+ background-size: 100% 100%
 </style>

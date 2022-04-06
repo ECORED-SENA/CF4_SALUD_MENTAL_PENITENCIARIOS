@@ -17,9 +17,9 @@
 
       .d-none.d-lg-block.col-lg-5.px-0.banner-principal__img
         img(:src="globalData.imagenBannerPrincipal" style="width: 481px")
-    .imagen_flotante_1: img(src="@/assets/curso/float1.png")
-    .imagen_flotante_2: img(src="@/assets/curso/float2.png")
-    .imagen_flotante_3: img(src="@/assets/curso/float3.png")
+    .imagen_flotante_1.d-none.d-xl-block: img(src="@/assets/curso/float1.png")
+    .imagen_flotante_2.d-none.d-xl-block: img(src="@/assets/curso/float2.png")
+    .imagen_flotante_3.d-none.d-xl-block: img(src="@/assets/curso/float3.png")
     .imagen_flotante_4.d-none.d-xl-block: img(src="@/assets/curso/float4.png")
     .imagen_flotante_5.d-none.d-xl-block: img(src="@/assets/curso/float5.png")
   
@@ -106,39 +106,34 @@ export default {
     animation: float1 3s ease-in-out infinite alternate
     position: absolute
     width: 70px
-    bottom: 237px
-    left: 65%
-    filter: drop-shadow(2px 4px 6px rgba(0,0,0,.4))
+    bottom: 280px
+    left: 60%
   &_2
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
     width: 115px
     top: 55px
-    left: 82%
-    filter: drop-shadow(2px 4px 6px rgba(0,0,0,.4))
+    left: 80%
   &_3
     animation: float1 3.8s ease-in-out infinite alternate
     position: absolute
-    width: 70px
+    width: 60px
     bottom: 30px
     left: 60%
-    filter: drop-shadow(2px 4px 6px rgba(0,0,0,.4))
   &_4
     animation: float1 4s ease-in-out infinite alternate
     position: absolute
     width: 30px
     top: 21%
-    left: 70%
+    left: 67%
     z-index: 99
-    filter: drop-shadow(2px 4px 6px rgba(0,0,0,.4))
   &_5
     animation: float1 3.9s ease-in-out infinite alternate
     position: absolute
     width: 65px
     top: 45%
-    left: 88%
+    left: 85%
     z-index: 99
-    filter: drop-shadow(2px 4px 6px rgba(0,0,0,.4))
   &_6
     filter: blur(2px)
     animation: float1 2.7s ease-in-out infinite alternate
@@ -147,7 +142,6 @@ export default {
     top: 30%
     right: 3%
     z-index: 99
-    filter: drop-shadow(2px 4px 6px rgba(0,0,0,.4))
   &_7
     animation: float1 2.5s ease-in-out infinite alternate
     position: absolute
@@ -155,7 +149,6 @@ export default {
     bottom: 10%
     right: 3%
     z-index: 99
-    filter: drop-shadow(2px 4px 6px rgba(0,0,0,.4))
   &_8
     filter: blur(1px)
     animation: float1 3s ease-in-out infinite alternate
@@ -164,7 +157,6 @@ export default {
     bottom: 20%
     right: 8%
     z-index: 99
-    filter: drop-shadow(2px 4px 6px rgba(0,0,0,.4))
 @keyframes float1
   0%
     transform: translateY(20px)

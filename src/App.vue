@@ -35,4 +35,6 @@ export default {
   background-image: url(assets/curso/fondo_temas.png) !important
 .titulo-segundo:after
   border-left-color: #FCD189 !important
+.banner-principal .tarjeta
+  background-size: 100% 100% !important
 </style>

@@ -33,11 +33,10 @@
             i.fas.fa-check-circle
             | Automedicación.
       .col-md-6
-        img(src="@/assets/curso/tema1/1.png" data-aos="zoom-in-up")
+        img(src="@/assets/curso/tema1/1.svg" data-aos="zoom-in-up")
 
     .row.mt-5
-      .col-md-1.d-md-block.d-none.d-lg-block.d-xl-block
-        img(src="@/assets/curso/tema1/2.png" data-aos="fade-left")
+      .col-md-1.d-md-block.d-none.d-lg-block.d-xl-block.cont_waves
       .col-md-11
         p(data-aos="fade-up") De acuerdo con lo planteado por el Ministerio de Salud y Protección Social (2019) en Las Rutas Integrales de Atención en Salud (RIAS) se definen las condiciones necesarias para asegurar la integralidad en la atención por parte de los agentes del Sistema de Salud (territorio, asegurador, prestador) y de otros sectores. Ordenan la gestión intersectorial y sectorial como plataforma para la respuesta que da lugar a las atenciones/intervenciones en salud, dirigidas a todas las personas, familias y comunidades, a partir de: 
 
@@ -72,9 +71,9 @@
     br
     .cont_full.mt-5.pb-5(style="position:relative;")
       .row
-        .col-md-4
+        .col-md-5
           img(src="@/assets/curso/tema1/7.png" data-aos="zoom-in")
-        .col-md-8
+        .col-md-7
           h3(data-aos="fade-up") Las RIAS están constituidas por tres tramos:
 
           AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
@@ -89,8 +88,7 @@
                 p  Dirigidas principalmente al diagnóstico oportuno, tratamiento, rehabilitación y paliación de los eventos o condiciones específicas de salud priorizadas.
 
       .row.mt-5
-        .col-md-1.d-md-block.d-none.d-lg-block.d-xl-block
-          img(src="@/assets/curso/tema1/2.png" data-aos="fade-left")
+        .col-md-1.d-md-block.d-none.d-lg-block.d-xl-block.cont_waves
         .col-md-11
           p(data-aos="fade-up") Mediante la Resolución 3280 de 2018 (Ministerio de Salud y Protección Social, 2018) se adoptan los lineamientos técnicos y operativos de la Ruta Integral de Atención para la Promoción y Mantenimiento de la Salud y la Ruta Integral de Atención en Salud para la Población Materno Perinatal y se establecen las directrices para su operación; se conciben los entornos como escenarios de transformación social, para el caso de las personas privadas de la libertad, se ubican en el entorno institucional y entre otras actividades se plantea el desarrollo de tamizajes que incluyen:
 
@@ -135,9 +133,9 @@
         img(src="@/assets/curso/tema1/12.png" data-aos="zoom-in-up")
 
     .row.mt-5(style="position:relative;")
-      .col-md-5
+      .col-md-5.order-2.order-sm-1
         img(src="@/assets/curso/tema1/13.png" data-aos="zoom-in")
-      .col-md-7
+      .col-md-7.order-1.order-sm-2
         p(data-aos="fade-right") Por lo cual se busca capacitar al talento humano, en el desarrollo de actividades para potencializar las estrategias de afrontamiento en el entorno penitenciario, teniendo en cuenta la salud mental como componente integral y esencial de la salud, de acuerdo con lo indicado por la (OMS) #[strong(style="color:#3BA3F8;") «La salud es un estado de completo bienestar físico, mental y social, y no solamente la ausencia de afecciones o enfermedades.»] Se considera como algo más que la ausencia de trastornos o discapacidades mentales es un estado de bienestar en el que la persona optimiza sus capacidades de pensar, manifestar sentimientos, interactuar con los demás, ganar el sustento y disfrutar de la vida, sobre esta base se puede considerar que la promoción, protección y el restablecimiento de la salud mental son preocupaciones vitales de las personas, comunidades y sociedades de todo el mundo.
         p.mt-3(data-aos="fade-right") La prisionalización puede generar cambios en el individuo de índole social, psicológico y biológico situación que en muchos individuos infiere en su salud mental, conllevando a un deterioro en sus relaciones interpersonales y un estado emocional con afectación en sus actividades diarias, así como la construcción de modos de vida poco saludables, que generan riesgos de violencia y terminan en una mala salud física y mental.
 
@@ -145,8 +143,8 @@
           p(style="position:relative;left:-7%;") Por ello, la promoción de la salud mental juega un papel fundamental en esta población y depende en gran medida de las estrategias implementadas por el Talento Humano, que brinde elementos con el objetivo de prevenir trastornos mentales y reducir la incidencia y la mortalidad en Persona Privada de la Libertad (PPL) por salud mental, mejorar la atención y promover la recuperación, enmarcado en los derechos humanos y con una gobernanza en salud mental.
 
 
-    Separador
-
+    br
+    br
     .titulo-segundo.mt-5
       h2#t_1_1 1.1  Autocuidado emocional
 
@@ -168,7 +166,7 @@
           p.text-white(data-aos="fade-up") En la siguiente infografía se presentan algunas de las consecuencias negativas de la falta de autocuidado emocional en la población privada de la libertad:
 
           a.boton.mt-4.indicador__container(
-            :href="obtenerLink('')"
+            :href="obtenerLink('/downloads/Autocuidado_emocional.pdf')"
             target="_blank"
             type="application/pdf"
             @mouseover="mostrarIndicador = false"
@@ -181,7 +179,8 @@
         .col-md-6
           img(src="@/assets/curso/tema1/15.png" data-aos="zoom-in")
         .col-md-6
-          span.h3.text-white.p-2(style="background-color:#3BA3F8;" data-aos="fade-up") ¿Cómo practicar el autocuidado emocional?
+          .mt-3
+            span.h3.text-white.p-2(style="background-color:#3BA3F8;line-height:30px;" data-aos="fade-up") ¿Cómo practicar el autocuidado emocional?
 
           ul.lista-ul.mt-5
             li(data-aos="fade-up") 
@@ -243,9 +242,9 @@
         img(src="@/assets/curso/tema1/16.png" data-aos="zoom-in-up")
 
     .row.mt-5
-      .col-md-4
+      .col-md-4.order-2.order-sm-1
         img(src="@/assets/curso/tema1/17.png" data-aos="zoom-in")
-      .col-md-8
+      .col-md-8.order-1.order-sm-2
         .mt-3.p-3.cont_1(data-aos="fade-right" style="position:relative")
           p(style="position:relative;left:-9%;") Esto indica que las situaciones de orden psicológico y emocional en los internos presentan un problema visible que da pie a otras situaciones como la falta de autocuidado, que genera un impacto negativo en la manera en cómo se ven hoy en día los centros penitenciarios. Cabe destacar que lo anterior se evidencia por la escasez de recursos del centro penitenciario, las condiciones de hacinamiento, los espacios insalubres, la falta de lugares adecuados para asearse y el no contar con apoyo familiar posibilita una mayor dificultad en la obtención de provisiones como ropa o útiles de aseo para llevar a cabo una adecuada higiene. También, como efectos se produce despreocupación por asearse lo que genera que en parte se presenten enfermedades como resfriados, alergias e infecciones respiratorias; incluso, hay un descuido por mantener en buen estado el sitio que ahora habitan, por ello se observa basura, hábitos insalubres y poco higiénicos por parte de los internos.
 
@@ -288,7 +287,7 @@
           p.text-white(data-aos="fade-up") En el siguiente recurso se presentan  las principales dificultades que enfrenta esta población:
 
           a.boton.mt-4.indicador__container(
-            :href="obtenerLink('')"
+            :href="obtenerLink('downloads/Autocuidado_emocional_3.pdf')"
             target="_blank"
             type="application/pdf"
             @mouseover="mostrarIndicador = false"
@@ -297,9 +296,8 @@
             i.fas.fa-file-download
             .indicador--click(v-if="mostrarIndicador")
 
-      .row.mt-5
-        .col-lg-1.col-md-1.col-sm-3.col-xs-12.mb-2
-          img(src="@/assets/curso/tema1/27.png" data-aos="fade-left")
+      .row.mt-5(style="position:relative;")
+        .col-lg-1.col-md-1.col-sm-3.col-xs-12.mb-2.cont_waves2.d-md-block.d-none.d-lg-block.d-xl-block
         .col-md-11.col-lg-11.col-sm-9.col-xs-12
           p(data-aos="fade-right") Estas dificultades se globalizan en una pérdida en la capacidad de adaptarse a la vida dentro del contexto carcelario, por lo que presentan disminución en la capacidad de autopercepción y por ende, una pérdida de la noción del yo, lo que sugiere una distorsión y/o pérdida en el cuidado e interés por sí mismo a nivel psicológico, físico, ambiental y social.
 
@@ -318,36 +316,36 @@
           .row.justify-content-center.mb-3
             .col-7
               figure
-                img(src='@/assets/curso/tema1/29.png', alt='')
+                img(src='@/assets/curso/tema1/29.svg', alt='')
           h3.text-center(data-aos="fade-up") Síntomas de depresión
       .col-md-2.col-lg-2.col-sm-4.mb-4.mb-lg-0
         .tarjeta--boton.color-acento-contenido.p-3.pb-5.pt-5(data-aos="flip-right" style="height:100%;")
           .row.justify-content-center.mb-3
             .col-7
               figure
-                img(src='@/assets/curso/tema1/30.png', alt='')
-          h3.text-center(data-aos="fade-up") Síntomas de depresión
+                img(src='@/assets/curso/tema1/30.svg', alt='')
+          h3.text-center(data-aos="fade-up")  Intento de suicidio
       .col-md-2.col-lg-2.col-sm-4.mb-4.mb-lg-0
         .tarjeta--boton.color-acento-contenido.p-3.pb-5.pt-5(data-aos="flip-right" style="height:100%;")
           .row.justify-content-center.mb-3
             .col-7
               figure
-                img(src='@/assets/curso/tema1/31.png', alt='')
-          h3.text-center(data-aos="fade-up") Síntomas de depresión
+                img(src='@/assets/curso/tema1/31.svg', alt='')
+          h3.text-center(data-aos="fade-up")  Trastornos mentales
       .col-md-2.col-lg-2.col-sm-4.mb-4.mb-lg-0
         .tarjeta--boton.color-acento-contenido.p-3.pb-5.pt-5(data-aos="flip-right" style="height:100%;")
           .row.justify-content-center.mb-3
             .col-7
               figure
-                img(src='@/assets/curso/tema1/32.png', alt='')
-          h3.text-center(data-aos="fade-up") Síntomas de depresión
+                img(src='@/assets/curso/tema1/32.svg', alt='')
+          h3.text-center(data-aos="fade-up") Estado de ánimo y ansiedad.
 
     br
     .row.mt-5
-      .col-md-7
+      .col-md-6
         .mt-3.p-3.cont_2(data-aos="fade-left" style="position:relative;z-index:1;")
           p(style="position:relative;right:-9%;") Por tal razón, esta política atiende al modelo de determinantes sociales de la salud contemplado en el Plan Decenal de Salud Pública, que plantea el análisis de las desigualdades sociales y su incidencia en los logros en salud, incluyendo la salud mental. Implica reconocer que: las diferencias en salud producidas socialmente, se distribuyen de forma sistemática entre la población y son injustas, y busca promover la adopción de políticas que generen movilización y participación social, así como condiciones de igualdad en salud; reafirmando el derecho de las personas a lograr el grado máximo de salud posible y procurando cerrar brechas y diferencias de salud injustas y evitables entre grupos o poblaciones definidos socialmente, económicamente, demográficamente o geográficamente, mediante la implementación de estrategias integrales de promoción, prevención, tratamiento y rehabilitación.
-      .col-md-5(style="place-self:center")
+      .col-md-6(style="place-self:center")
         img(src="@/assets/curso/tema1/33.png" data-aos="zoom-in-up")
 
     Separador
@@ -381,22 +379,22 @@
     .row.mt-5
       .col-md-4.col-lg-4.mb-5.mb-lg-0
         .tarjeta-avatar
-          img(src='@/assets/curso/tema1/36.png' alt='')
-          .tarjeta.color-primario(style="background-color:#AED4F5;")
+          img(src='@/assets/curso/tema1/36.svg' alt='')
+          .tarjeta.color-primario(style="background-color:#AED4F5;width:100%;")
             .text-white.p-4
               h3.text-center.mt-5(data-aos="fade-up" style="color:#12263F !important;") A corto plazo
               p.mt-4.text-center(data-aos="fade-up" style="color:#12263F !important;") Son aquellas que se propone y son cercanas en el tiempo, por ejemplo 3 semanas, 5 meses, 1 año.
       .col-md-4.col-lg-4.mb-5.mb-lg-0
         .tarjeta-avatar
-          img(src='@/assets/curso/tema1/37.png' alt='')
-          .tarjeta.color-primario(style="background-color:#AED4F5;")
+          img(src='@/assets/curso/tema1/37.svg' alt='')
+          .tarjeta.color-primario(style="background-color:#AED4F5;width:100%;")
             .text-white.p-4
               h3.text-center.mt-5(data-aos="fade-up" style="color:#12263F !important;") A mediano plazo
               p.mt-4.text-center(data-aos="fade-up" style="color:#12263F !important;")  Son aquellas que se propone a 2 o 3 años.
       .col-md-4.col-lg-4.mb-5.mb-lg-0
         .tarjeta-avatar
-          img(src='@/assets/curso/tema1/38.png' alt='')
-          .tarjeta.color-primario(style="background-color:#AED4F5;")
+          img(src='@/assets/curso/tema1/38.svg' alt='')
+          .tarjeta.color-primario(style="background-color:#AED4F5;width:100%;")
             .text-white.p-4
               h3.text-center.mt-5(data-aos="fade-up" style="color:#12263F !important;") A largo plazo
               p.mt-4.text-center(data-aos="fade-up" style="color:#12263F !important;") Son aquellas que se propone a 5 o 10 años.
@@ -458,7 +456,7 @@ export default {
   height: 108%
   left: -4%
   background-repeat: no-repeat
-  top: -6%
+  top: -2%
 .cont_full_2:before
   content: ''
   position: absolute
@@ -491,4 +489,12 @@ export default {
   width: 110%
   top: 15%
   left: -5%
+.cont_waves
+ background: url(../assets/curso/tema1/2.svg)
+.cont_waves2
+ background: url(../assets/curso/tema1/27.svg)
+ background-repeat: no-repeat
+ background-size: 100% 100%
+.acordion .tarjeta--azul
+  background-color: #DFEAF1
 </style>
