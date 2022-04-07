@@ -29,12 +29,12 @@
     .row.mt-4
       .col-md-6.p-0
         .p-5.text-center.justify-content-center.m-auto(style="background-color:#133D60;height:100%;" data-aos="flip-right")
-          img(src="@/assets/curso/tema2/2.png" data-aos="zoom-in" style="max-width:150px;display:inline;")
+          img(src="@/assets/curso/tema2/2.svg" data-aos="zoom-in" style="max-width:150px;display:inline;")
           h4.mt-5.text-white(data-aos="fade-up") Centrados en el problema
           p.mt-4.text-white(data-aos="fade-up") Tienen como objeto la resolución de la situación o la realización de conductas que modifiquen la fuente de estrés. La persona se centra en hacer frente a la situación, buscando soluciones al problema que ha provocado la disonancia cognitiva y ayuda a la persona, que es incapaz de tomar decisiones o toma decisiones impulsivas o inadecuadas, por no haber considerado algunos aspectos de la situación o las posibilidades de acción reales.
       .col-md-6.p-0
         .p-5.text-center.justify-content-center.m-auto(style="background-color:#197CCC;height:100%;" data-aos="flip-right")
-          img(src="@/assets/curso/tema2/3.png" data-aos="zoom-in" style="max-width:150px;display:inline;")
+          img(src="@/assets/curso/tema2/3.svg" data-aos="zoom-in" style="max-width:150px;display:inline;")
           h4.mt-5.text-white(data-aos="fade-up") Centrados en la emoción
           p.mt-4.text-white(data-aos="fade-up") Tienen como objetivo reducir o manejar el malestar emocional asociado o provocado por la situación, se busca que la persona tenga regulación de las consecuencias emocionales activadas por la presencia de la situación estresante, este tipo de estrategias vienen configuradas por todas aquellas reacciones que no resuelven el problema en sí mismo, pero que hacen sentir mejor al individuo en momentos de peligro o amenaza.
 

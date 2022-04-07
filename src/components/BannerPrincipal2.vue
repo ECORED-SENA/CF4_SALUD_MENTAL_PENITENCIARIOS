@@ -17,11 +17,11 @@
 
       .d-none.d-lg-block.col-lg-5.px-0.banner-principal__img
         img(:src="globalData.imagenBannerPrincipal" style="width: 481px")
-    .imagen_flotante_1.d-none.d-xl-block: img(src="@/assets/curso/float1.png")
-    .imagen_flotante_2.d-none.d-xl-block: img(src="@/assets/curso/float2.png")
-    .imagen_flotante_3.d-none.d-xl-block: img(src="@/assets/curso/float3.png")
-    .imagen_flotante_4.d-none.d-xl-block: img(src="@/assets/curso/float4.png")
-    .imagen_flotante_5.d-none.d-xl-block: img(src="@/assets/curso/float5.png")
+    .imagen_flotante_1.d-none.d-xl-block.d-lg-block: img(src="@/assets/curso/float1.svg")
+    .imagen_flotante_2.d-none.d-xl-block.d-lg-block: img(src="@/assets/curso/float2.svg")
+    .imagen_flotante_3.d-none.d-xl-block.d-lg-block: img(src="@/assets/curso/float3.svg")
+    .imagen_flotante_4.d-none.d-xl-block.d-lg-block: img(src="@/assets/curso/float4.svg")
+    .imagen_flotante_5.d-none.d-xl-block.d-lg-block: img(src="@/assets/curso/float5.svg")
   
 
 </template>
@@ -107,32 +107,32 @@ export default {
     position: absolute
     width: 70px
     bottom: 280px
-    left: 60%
+    left: 65%
   &_2
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
     width: 115px
     top: 55px
-    left: 80%
+    left: 87%
   &_3
     animation: float1 3.8s ease-in-out infinite alternate
     position: absolute
     width: 60px
     bottom: 30px
-    left: 60%
+    left: 65%
   &_4
     animation: float1 4s ease-in-out infinite alternate
     position: absolute
     width: 30px
     top: 21%
-    left: 67%
+    left: 73%
     z-index: 99
   &_5
     animation: float1 3.9s ease-in-out infinite alternate
     position: absolute
     width: 65px
     top: 45%
-    left: 85%
+    left: 90%
     z-index: 99
   &_6
     filter: blur(2px)

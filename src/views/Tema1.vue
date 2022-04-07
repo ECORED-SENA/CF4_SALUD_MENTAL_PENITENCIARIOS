@@ -74,7 +74,7 @@
         .col-md-5
           img(src="@/assets/curso/tema1/7.png" data-aos="zoom-in")
         .col-md-7
-          h3(data-aos="fade-up") Las RIAS están constituidas por tres tramos:
+          h3.mt-3(data-aos="fade-up") Las RIAS están constituidas por tres tramos:
 
           AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
             .row(titulo="1. Ruta integral de atención para la promoción y mantenimiento de la salud en el curso de vida de carácter individual y colectivo")
@@ -239,7 +239,7 @@
           p.mb-2 Para que haya autocuidado se requiere cierto grado de desarrollo personal, mediado por un permanente fortalecimiento del autoconcepto, el autocontrol, la autoestima, la autoaceptación y la resiliencia” (p.5).
           strong(style="float: right;left: -8%;position: relative;") Según Tobón (2015):
       .col-md-6
-        img(src="@/assets/curso/tema1/16.png" data-aos="zoom-in-up")
+        img.mt-3(src="@/assets/curso/tema1/16.png" data-aos="zoom-in-up")
 
     .row.mt-5
       .col-md-4.order-2.order-sm-1
@@ -374,7 +374,7 @@
       .col-md-6
         img(src="@/assets/curso/tema1/35.png" data-aos="zoom-in-up")
 
-    h5.text-center(data-aos="fade-up") Las metas pueden ser a corto plazo, a mediano plazo y a largo plazo.
+    h5.mt-3.text-center(data-aos="fade-up") Las metas pueden ser a corto plazo, a mediano plazo y a largo plazo.
 
     .row.mt-5
       .col-md-4.col-lg-4.mb-5.mb-lg-0

@@ -37,4 +37,7 @@ export default {
   border-left-color: #FCD189 !important
 .banner-principal .tarjeta
   background-size: 100% 100% !important
+.acordion__accion__btn--a, .acordion__accion__btn--b
+  background-color: #133D60 !important
+  color: white !important
 </style>
