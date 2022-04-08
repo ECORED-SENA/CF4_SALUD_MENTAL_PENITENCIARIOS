@@ -40,4 +40,8 @@ export default {
 .acordion__accion__btn--a, .acordion__accion__btn--b
   background-color: #133D60 !important
   color: white !important
+@media (max-width: 768px)
+  .banner-principal .tarjeta
+    background-size: cover !important
+    background-position: left !important
 </style>

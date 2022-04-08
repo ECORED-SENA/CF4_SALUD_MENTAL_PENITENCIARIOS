@@ -107,32 +107,32 @@ export default {
     position: absolute
     width: 70px
     bottom: 280px
-    left: 65%
+    left: 62%
   &_2
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
     width: 115px
     top: 55px
-    left: 87%
+    left: 80%
   &_3
     animation: float1 3.8s ease-in-out infinite alternate
     position: absolute
     width: 60px
     bottom: 30px
-    left: 65%
+    left: 60%
   &_4
     animation: float1 4s ease-in-out infinite alternate
     position: absolute
     width: 30px
     top: 21%
-    left: 73%
+    left: 65%
     z-index: 99
   &_5
     animation: float1 3.9s ease-in-out infinite alternate
     position: absolute
     width: 65px
     top: 45%
-    left: 90%
+    left: 85%
     z-index: 99
   &_6
     filter: blur(2px)
