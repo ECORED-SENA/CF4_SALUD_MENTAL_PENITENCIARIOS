@@ -164,9 +164,9 @@ export default {
     transform: translateY(0px)
 @keyframes scale
   0%
-    transform: scale(1.1)
+    transform: translateX(50px)
   100%
-    transform: scale(1)
+    transform: translateX(0px)
 @media (max-width: $bp-max-md)
   .fondo-contenido
     display: none

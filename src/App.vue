@@ -35,13 +35,9 @@ export default {
   background-image: url(assets/curso/fondo_temas.png) !important
 .titulo-segundo:after
   border-left-color: #FCD189 !important
-.banner-principal .tarjeta
-  background-size: 100% 100% !important
 .acordion__accion__btn--a, .acordion__accion__btn--b
   background-color: #133D60 !important
   color: white !important
-@media (max-width: 768px)
-  .banner-principal .tarjeta
-    background-size: cover !important
-    background-position: left !important
+.banner-principal .tarjeta
+  background-size: cover !important
 </style>
