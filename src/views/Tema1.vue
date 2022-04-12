@@ -38,7 +38,7 @@
     .row.mt-5
       .col-md-1.d-md-block.d-none.d-lg-block.d-xl-block.cont_waves
       .col-md-11
-        p(data-aos="fade-up") De acuerdo con lo planteado por el Ministerio de Salud y Protección Social (2019) en Las Rutas Integrales de Atención en Salud (RIAS) se definen las condiciones necesarias para asegurar la integralidad en la atención por parte de los agentes del Sistema de Salud (territorio, asegurador, prestador) y de otros sectores. Ordenan la gestión intersectorial y sectorial como plataforma para la respuesta que da lugar a las atenciones/intervenciones en salud, dirigidas a todas las personas, familias y comunidades, a partir de: 
+        p(data-aos="fade-up") De acuerdo con lo planteado por el ministerio de salud y protección social (2019) en las rutas integrales de atención en salud (RIAS) se definen las condiciones necesarias para asegurar la integralidad en la atención por parte de los agentes del sistema de salud (territorio, asegurador, prestador) y de otros sectores. Ordenan la gestión intersectorial y sectorial como plataforma para la respuesta que da lugar a las atenciones/intervenciones en salud, dirigidas a todas las personas, familias y comunidades, a partir de: 
 
     .row.mt-5
       .col-md-4.col-lg-4.mb-4.mb-lg-0
@@ -78,14 +78,14 @@
 
           AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
             .row(titulo="1. Ruta integral de atención para la promoción y mantenimiento de la salud en el curso de vida de carácter individual y colectivo")
-              .col-12
-                p  Dirigidas a promover la salud, prevenir el riesgo, prevenir la enfermedad y generar cultura del cuidado de la salud en las personas, familias y comunidades; incluye como atenciones obligatorias para toda la población colombiana: la valoración integral del estado de salud, la detección temprana de alteraciones, la protección específica y la educación para la salud, que contiene el cuidado a los cuidadores.
+              .col-12.ps-5
+                p.ps-3  Dirigidas a promover la salud, prevenir el riesgo, prevenir la enfermedad y generar cultura del cuidado de la salud en las personas, familias y comunidades; incluye como atenciones obligatorias para toda la población colombiana: la valoración integral del estado de salud, la detección temprana de alteraciones, la protección específica y la educación para la salud, que contiene el cuidado a los cuidadores.
             .row(titulo="2. Rutas integrales de atención para grupos de riesgo, intervenciones individuales y colectivas")
-              .col-12
-                p  Dirigidas a la identificación oportuna de factores de riesgo y su intervención, ya sea para evitar la aparición de una condición específica en salud o para realizar un diagnóstico y una derivación oportuna para el tratamiento.
+              .col-12.ps-5
+                p.ps-3  Dirigidas a la identificación oportuna de factores de riesgo y su intervención, ya sea para evitar la aparición de una condición específica en salud o para realizar un diagnóstico y una derivación oportuna para el tratamiento.
             .row(titulo="3. Rutas integrales de atención específica para eventos, intervenciones individuales y colectivas")
-              .col-12
-                p  Dirigidas principalmente al diagnóstico oportuno, tratamiento, rehabilitación y paliación de los eventos o condiciones específicas de salud priorizadas.
+              .col-12.ps-5
+                p.ps-3  Dirigidas principalmente al diagnóstico oportuno, tratamiento, rehabilitación y paliación de los eventos o condiciones específicas de salud priorizadas.
 
       .row.mt-5
         .col-md-1.d-md-block.d-none.d-lg-block.d-xl-block.cont_waves
@@ -99,7 +99,7 @@
             .tarjeta-flip__contenedor
               .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/8.svg')})`}")
               .tarjeta-flip__contenido.p-4.p-xl-5(style="display:flex;flex-wrap:wrap;align-content:center;")
-                p.text-white.text-center.mt-2.mb-2 Pruebas SRQ (Self Reporting Questionnaire) para la detección temprana de trastornos mentales en adultos.
+                p.text-white.text-center.mt-2.mb-2 Pruebas SRQ (#[em Self Reporting Questionnaire]) para la detección temprana de trastornos mentales en adultos.
         .col-md-3.col-lg-3.mb-4.mb-xl-0
           .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip2 = false")
             .indicador--hover(v-if="indicadorTarjetaFlip2")
@@ -124,10 +124,10 @@
 
     .row.mt-5
       .col-md-7.mb-2
-        p(data-aos="fade-left") En este último apartado se debe considerar el tamizaje de la conducta suicida, como se establece en la Estrategia Nacional de Prevención de la Conducta Suicida en Colombia (Ministerio de Salud y Protección Social, 2021)
-        p.mt-4(data-aos="fade-left") Así mismo, la Resolución 1841 de 2013 (Minsalud) en la Dimensión vida saludable y condiciones no transmisibles específicamente en el componente Modos, condiciones y estilos de vida saludables establece como estrategia para el autocuidado la:
+        p(data-aos="fade-left") En este último apartado se debe considerar el tamizaje de la conducta suicida, como se establece en la estrategia nacional de prevención de la conducta suicida en colombia (ministerio de salud y protección social, 2021)
+        p.mt-4(data-aos="fade-left") Así mismo, la resolución 1841 de 2013 (Minsalud) en la dimensión vida saludable y condiciones no transmisibles específicamente en el componente modos, condiciones y estilos de vida saludables establece como estrategia para el autocuidado la:
         .p-4(style="background-color:#EAEEF1;")
-          p.h5(data-aos="fade-up" style="color:#3BA3F8;line-height:22px;") “Información, comunicación y educación que incentive la adopción de estilos de vida saludable, el reconocimiento de riesgos y que aporte elementos que permitan responder de manera asertiva a los retos de la vida diaria; que promueva las capacidades individuales y colectivas, y la movilización de los diferentes grupos humanos que favorecen la cultura de la salud, el autocuidado y el desarrollo de habilidades en los diferentes ámbitos de la vida cotidiana”.
+          p.h5(data-aos="fade-up" style="color:#3BA3F8;line-height:22px;text-align:justify;") “Información, comunicación y educación que incentive la adopción de estilos de vida saludable, el reconocimiento de riesgos y que aporte elementos que permitan responder de manera asertiva a los retos de la vida diaria; que promueva las capacidades individuales y colectivas, y la movilización de los diferentes grupos humanos que favorecen la cultura de la salud, el autocuidado y el desarrollo de habilidades en los diferentes ámbitos de la vida cotidiana”.
 
       .col-md-5
         img(src="@/assets/curso/tema1/12.png" data-aos="zoom-in-up")
@@ -136,7 +136,7 @@
       .col-md-5.order-2.order-sm-1
         img(src="@/assets/curso/tema1/13.png" data-aos="zoom-in")
       .col-md-7.order-1.order-sm-2
-        p(data-aos="fade-right") Por lo cual se busca capacitar al talento humano, en el desarrollo de actividades para potencializar las estrategias de afrontamiento en el entorno penitenciario, teniendo en cuenta la salud mental como componente integral y esencial de la salud, de acuerdo con lo indicado por la (OMS) #[strong(style="color:#3BA3F8;") «La salud es un estado de completo bienestar físico, mental y social, y no solamente la ausencia de afecciones o enfermedades.»] Se considera como algo más que la ausencia de trastornos o discapacidades mentales es un estado de bienestar en el que la persona optimiza sus capacidades de pensar, manifestar sentimientos, interactuar con los demás, ganar el sustento y disfrutar de la vida, sobre esta base se puede considerar que la promoción, protección y el restablecimiento de la salud mental son preocupaciones vitales de las personas, comunidades y sociedades de todo el mundo.
+        p(data-aos="fade-right") Por lo cual se busca capacitar al talento humano, en el desarrollo de actividades para potencializar las estrategias de afrontamiento en el entorno penitenciario, teniendo en cuenta la salud mental como componente integral y esencial de la salud, de acuerdo con lo indicado por la (OMS) #[strong(style="color:#3BA3F8;font-style:italic;") «La salud es un estado de completo bienestar físico, mental y social, y no solamente la ausencia de afecciones o enfermedades.»] Se considera como algo más que la ausencia de trastornos o discapacidades mentales es un estado de bienestar en el que la persona optimiza sus capacidades de pensar, manifestar sentimientos, interactuar con los demás, ganar el sustento y disfrutar de la vida, sobre esta base se puede considerar que la promoción, protección y el restablecimiento de la salud mental son preocupaciones vitales de las personas, comunidades y sociedades de todo el mundo.
         p.mt-3(data-aos="fade-right") La prisionalización puede generar cambios en el individuo de índole social, psicológico y biológico situación que en muchos individuos infiere en su salud mental, conllevando a un deterioro en sus relaciones interpersonales y un estado emocional con afectación en sus actividades diarias, así como la construcción de modos de vida poco saludables, que generan riesgos de violencia y terminan en una mala salud física y mental.
 
         .mt-3.p-4.cont_1(data-aos="fade-right" style="position:relative")
@@ -305,8 +305,8 @@
         .col-md-5
           img(src="@/assets/curso/tema1/28.png" data-aos="zoom-in")
         .col-md-7
-          p(data-aos="fade-up") De esta manera, la modificación de la conducta se basa en desarrollar en cada interno la capacidad de reconocer el valor que tiene por sí mismo y la importancia de cuidarse, enfrentando los efectos que produce el internamiento, ya que aunque estos individuos conviven cercanamente con muchas personas es poca la comunicación que se genera, creando implícitamente en ellos insensibilidad, agresividad e indiferencia; Yela (2008), en el artículo #[strong(style="color:#3BA3F8;") “El psicólogo en Instituciones penitenciarias: teoría y práctica”] da cuenta de la opinión de Valverde, quien indica que los internos suelen vivir cualquier indicación o norma como agresión inicial, provocación y humillación, las demoras y las complicaciones que se producen en el engranaje penitenciario, es decir, todos los retrasos generados en el proceso o tratamiento que aplican los Centros Penitenciarios entre la reclusión y el internamiento de los individuos.
-          p.mt-4(data-aos="fade-up") Finalmente, los determinantes sociales de la salud son las circunstancias en que las personas nacen, crecen, viven, trabajan y envejecen, incluido el sistema de salud; las características sociales dentro de las cuales la vida tiene lugar; apuntan tanto a las características específicas del contexto social que influyen en la salud, como las vías por las cuales las condiciones sociales se traducen en efectos sanitarios y los diferentes recursos a nivel mundial, nacional y local, lo cual depende a su vez de las políticas adoptadas. En el Plan de Acción sobre Salud Mental, la Organización Mundial de la Salud destaca que los determinantes de la salud mental y de los trastornos mentales incluyen factores sociales, culturales, económicos, políticos y ambientales.
+          p(data-aos="fade-up") De esta manera, la modificación de la conducta se basa en desarrollar en cada interno la capacidad de reconocer el valor que tiene por sí mismo y la importancia de cuidarse, enfrentando los efectos que produce el internamiento, ya que aunque estos individuos conviven cercanamente con muchas personas es poca la comunicación que se genera, creando implícitamente en ellos insensibilidad, agresividad e indiferencia; Yela (2008), en el artículo #[strong(style="color:#3BA3F8;") “El psicólogo en instituciones penitenciarias: teoría y práctica”] da cuenta de la opinión de Valverde, quien indica que los internos suelen vivir cualquier indicación o norma como agresión inicial, provocación y humillación, las demoras y las complicaciones que se producen en el engranaje penitenciario, es decir, todos los retrasos generados en el proceso o tratamiento que aplican los centros penitenciarios entre la reclusión y el internamiento de los individuos.
+          p.mt-4(data-aos="fade-up") Finalmente, los determinantes sociales de la salud son las circunstancias en que las personas nacen, crecen, viven, trabajan y envejecen, incluido el sistema de salud; las características sociales dentro de las cuales la vida tiene lugar; apuntan tanto a las características específicas del contexto social que influyen en la salud, como las vías por las cuales las condiciones sociales se traducen en efectos sanitarios y los diferentes recursos a nivel mundial, nacional y local, lo cual depende a su vez de las políticas adoptadas. En el plan de acción sobre salud mental, la organización mundial de la salud destaca que los determinantes de la salud mental y de los trastornos mentales incluyen factores sociales, culturales, económicos, políticos y ambientales.
 
     .row.mt-5.cont_full_2(style="position:relative")
       .col-md-4.col-sm-4.mb-2(style="place-self:center;position:relative")
@@ -338,13 +338,13 @@
             .col-7
               figure
                 img(src='@/assets/curso/tema1/32.svg', alt='')
-          h3.text-center(data-aos="fade-up") Estado de ánimo y ansiedad.
+          h3.text-center(data-aos="fade-up") Estado de ánimo y ansiedad
 
     br
     .row.mt-5
       .col-md-6
         .mt-3.p-3.cont_2(data-aos="fade-left" style="position:relative;z-index:1;")
-          p(style="position:relative;right:-9%;") Por tal razón, esta política atiende al modelo de determinantes sociales de la salud contemplado en el Plan Decenal de Salud Pública, que plantea el análisis de las desigualdades sociales y su incidencia en los logros en salud, incluyendo la salud mental. Implica reconocer que: las diferencias en salud producidas socialmente, se distribuyen de forma sistemática entre la población y son injustas, y busca promover la adopción de políticas que generen movilización y participación social, así como condiciones de igualdad en salud; reafirmando el derecho de las personas a lograr el grado máximo de salud posible y procurando cerrar brechas y diferencias de salud injustas y evitables entre grupos o poblaciones definidos socialmente, económicamente, demográficamente o geográficamente, mediante la implementación de estrategias integrales de promoción, prevención, tratamiento y rehabilitación.
+          p(style="position:relative;right:-9%;") Por tal razón, esta política atiende al modelo de determinantes sociales de la salud contemplado en el plan decenal de salud pública, que plantea el análisis de las desigualdades sociales y su incidencia en los logros en salud, incluyendo la salud mental. Implica reconocer que: las diferencias en salud producidas socialmente, se distribuyen de forma sistemática entre la población y son injustas, y busca promover la adopción de políticas que generen movilización y participación social, así como condiciones de igualdad en salud; reafirmando el derecho de las personas a lograr el grado máximo de salud posible y procurando cerrar brechas y diferencias de salud injustas y evitables entre grupos o poblaciones definidos socialmente, económicamente, demográficamente o geográficamente, mediante la implementación de estrategias integrales de promoción, prevención, tratamiento y rehabilitación.
       .col-md-6(style="place-self:center")
         img(src="@/assets/curso/tema1/33.png" data-aos="zoom-in-up")
 

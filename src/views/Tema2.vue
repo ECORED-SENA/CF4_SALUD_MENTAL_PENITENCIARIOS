@@ -52,7 +52,7 @@
           li(data-aos="fade-up") 
             .lista-ol--cuadro__vineta
               span 2
-            | La planificación
+            | La planificación.
           li(data-aos="fade-up") 
             .lista-ol--cuadro__vineta
               span 3
@@ -119,7 +119,7 @@
     .row.mt-5
       .col-lg-1.col-md-1.col-sm-3.col-xs-12.mb-2.cont_waves2
       .col-md-11.col-lg-11.col-sm-9.col-xs-12
-        p(data-aos="fade-right") Mediante la Resolución 1841 de 2013, el Ministerio de Salud y Protección Social adoptó el Plan Decenal de Salud Pública, estableciendo como parte de sus dimensiones, la de Convivencia y Salud Mental, como eje prioritario dentro de la cual propone la meta del Componente de Promoción de la convivencia social y de la salud mental.
+        p(data-aos="fade-right") Mediante la resolución 1841 de 2013, el ministerio de salud y protección social adoptó el plan decenal de salud pública, estableciendo como parte de sus dimensiones, la de convivencia y salud mental, como eje prioritario dentro de la cual propone la meta del componente de promoción de la convivencia social y de la salud mental.
 
     .row.mt-5.cont_full_4(style="position:relative;")
       .col-lg-2.col-md-2(style="place-self:center;position:relative;")

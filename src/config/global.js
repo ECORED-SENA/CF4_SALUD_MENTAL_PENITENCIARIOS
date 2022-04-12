@@ -91,7 +91,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Carver, C., Scheier, M. & Weintraub, J. K. (1989). Assessing Coping Strategies: A theoretically based approach. Journal of Personality and Social Psychology, 56(2), 267–283',
+        'Carver, C., Scheier, M. & Weintraub, J. K. (1989). Assessing Coping Strategies: A theoretically based approach. Journal of Personality and Social Psychology, 56(2), 267–283.',
       link: '',
     },
     {
@@ -148,15 +148,15 @@ export default {
   glosario: [
     {
       termino: 'PPL',
-      significado: 'Población Privada de la Libertad',
+      significado: 'Población Privada de la Libertad.',
     },
     {
       termino: 'RIAS',
-      significado: 'Rutas Integrales de Atención en salud',
+      significado: 'Rutas Integrales de Atención en salud.',
     },
     {
       termino: 'RPMS',
-      significado: 'Promoción y mantenimiento de la Salud',
+      significado: 'Promoción y mantenimiento de la Salud.',
     },
     {
       termino: 'PRUEBA ASSIST',
@@ -165,11 +165,11 @@ export default {
     },
     {
       termino: 'OMS',
-      significado: 'Organización mundial de la Salud',
+      significado: 'Organización mundial de la Salud.',
     },
     {
       termino: 'SM',
-      significado: 'Salud Mental',
+      significado: 'Salud Mental.',
     },
   ],
   complementario: [
