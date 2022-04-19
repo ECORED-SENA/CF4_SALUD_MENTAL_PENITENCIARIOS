@@ -40,4 +40,7 @@ export default {
   color: white !important
 .banner-principal .tarjeta
   background-size: cover !important
+  background-position: inherit !important
+.titulo-principal__numero
+  background-color: #FCD189
 </style>

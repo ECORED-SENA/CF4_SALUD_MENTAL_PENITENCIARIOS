@@ -52,7 +52,7 @@ export default {
     subMenu: [
       {
         icono: 'fas fa-sitemap',
-        titulo: 'Sintesis',
+        titulo: 'Síntesis',
         nombreRuta: 'sintesis',
       },
       {
@@ -101,29 +101,29 @@ export default {
     },
     {
       referencia:
-        "D'Angelo, O. (2000). Proyecto de vida como categoría básica de interpretación de la identidad individual y social. Revista Cubana de Psicología",
+        "D'Angelo, O. (2000). Proyecto de vida como categoría básica de interpretación de la identidad individual y social. Revista Cubana de Psicología. ",
       link: 'http://pepsic.bvsalud.org/pdf/rcp/v17n3/08.pdf ',
     },
     {
       referencia:
-        'Larrota, R., Vargas, S. Luzardo, M. & Rangel, K. (2014). Características del comportamiento suicida en las cárceles de Colombia. Revista Criminalidad 56(1), 83–95',
+        'Larrota, R., Vargas, S. Luzardo, M. & Rangel, K. (2014). Características del comportamiento suicida en las cárceles de Colombia. Revista Criminalidad 56(1), 83–95. ',
       link: 'http://www.scielo.org.co/pdf/crim/v56n1/v56n1a06.pdf',
     },
     {
       referencia:
-        'Ministerio de Salud y Protección Social. (2018). Nuevas rutas integrales de atención en salud revolucionarán al sistema. MinSalud',
+        'Ministerio de Salud y Protección Social. (2018). Nuevas rutas integrales de atención en salud revolucionarán al sistema. MinSalud. ',
       link:
         'https://www.minsalud.gov.co/Paginas/Nuevas-rutas-integrales-de-atencion-en-salud-revolucionaran-al-sistema-.aspx ',
     },
     {
       referencia:
-        'Organización Mundial de la Salud. (1998). Health topics. WHO | World Health Organization',
+        'Organización Mundial de la Salud. (1998). Health topics. WHO | World Health Organization. ',
       link:
         'https://www.mallamaseps.com.co/index.php/el-autocuidado-en-la-actualidad',
     },
     {
       referencia:
-        'Resolución 1841 de 2013. [Ministerio de Salud y Protección Social]. Por la cual se adopta el Plan Decenal de Salud Pública 2012 – 2021. Mayo 28 de 2013',
+        'Resolución 1841 de 2013. [Ministerio de Salud y Protección Social]. Por la cual se adopta el Plan Decenal de Salud Pública 2012 – 2021. Mayo 28 de 2013. ',
       link:
         'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/resolucion-1841-de-2013.pdf',
     },
@@ -175,7 +175,7 @@ export default {
   complementario: [
     {
       texto:
-        'Ministerio de Salud y Protección Social. (2016). ABCDÉ Gestión integral en salud mental para la población privada de la libertad. MinSalud',
+        'Ministerio de Salud y Protección Social. (2016). ABECÉ Gestión integral en salud mental para la población privada de la libertad. MinSalud',
       tipo: 'Lineamiento',
       link:
         'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/VS/PP/ENT/abece-salud-mental-ppl.pdf',
@@ -210,59 +210,134 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'Carmen Tulia Bermúdez',
+        cargo: 'Profesional especializado',
+        centro: 'INPEC',
+      },
+      {
+        nombre: 'Franky Alexy Ortiz Peña',
+        cargo: 'Profesional especializado',
+        centro: 'INPEC',
+      },
+      {
+        nombre: 'Sandra Vargas',
+        cargo: 'Profesional especializado',
+        centro: 'INPEC',
+      },
+      {
+        nombre: 'María Carolina Daza Gil',
+        cargo: 'Profesional universitario',
+        centro: 'USPEC',
+      },
+      {
+        nombre: 'Paola Moya Peralta',
+        cargo: 'Diseñadora instruccional',
+        centro:
+          'Regional Distrito Capital Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Andrés Felipe Velandia Espitia',
+        cargo: 'Revisor metodológico y pedagógico',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Sandra Patricia Hoyos Sepúlveda',
+        cargo: 'Revisión y corrección de estilo',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+      },
     ],
     desarrolloProducto: [
       {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Leyson Fabian Castaño Perez',
-        cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
-      {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: 'Blanca Flor Tinoco Torres',
         cargo: 'Diseño web',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Luis Jesus Perez Madariaga',
         cargo: 'Desarrollo Front-End',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Camilo Andrés Bolaño Rey',
+        cargo: 'Locución',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Carmen Alicia Martínez Torres',
+        cargo: 'Validación ilustración',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Ernesto Navarro Jaimes',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Lady Adriana Ariza Luque',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Lina Marcela Pérez Manchego',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Ludwyng Corzo García',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Oleg Litvin',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Zuleidy María Ruíz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Yuli Marcela Gómez Tarazona',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
-        nombre: 'Álvaro Andrés Angarita Ramirez',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
-      {
-        nombre: 'Daniel Felipe Varón Molina',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
-      {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
     ],
   },

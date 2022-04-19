@@ -38,7 +38,7 @@
     .row.mt-5
       .col-md-1.d-md-block.d-none.d-lg-block.d-xl-block.cont_waves
       .col-md-11
-        p(data-aos="fade-up") De acuerdo con lo planteado por el ministerio de salud y protección social (2019) en las rutas integrales de atención en salud (RIAS) se definen las condiciones necesarias para asegurar la integralidad en la atención por parte de los agentes del sistema de salud (territorio, asegurador, prestador) y de otros sectores. Ordenan la gestión intersectorial y sectorial como plataforma para la respuesta que da lugar a las atenciones/intervenciones en salud, dirigidas a todas las personas, familias y comunidades, a partir de: 
+        p(data-aos="fade-up") De acuerdo con lo planteado por el Ministerio de Salud y Protección Social (2019) en Las Rutas Integrales de Atención en Salud (RIAS) se definen las condiciones necesarias para asegurar la integralidad en la atención por parte de los agentes del sistema de salud (territorio, asegurador, prestador) y de otros sectores. Ordenan la gestión intersectorial y sectorial como plataforma para la respuesta que da lugar a las atenciones/intervenciones en salud, dirigidas a todas las personas, familias y comunidades, a partir de: 
 
     .row.mt-5
       .col-md-4.col-lg-4.mb-4.mb-lg-0
@@ -57,7 +57,7 @@
               figure
                 img(src='@/assets/curso/tema1/4.png', alt='')
           h3.text-center II
-          p.text-center Atenciones individuales y colectivas para la promoción de la salud, prevención de la enfermedad, diagnóstico, tratamiento, rehabilitación y paliación 
+          p.text-center Atenciones individuales y colectivas para la promoción de la salud, prevención de la enfermedad, diagnóstico, tratamiento, rehabilitación y paliación.
 
       .col-md-4.col-lg-4.mb-4.mb-lg-0
         .tarjeta--boton.color-acento-contenido.p-4(data-aos="flip-right" style="height:100%;")
@@ -113,7 +113,7 @@
             .tarjeta-flip__contenedor
               .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/10.svg')})`}")
               .tarjeta-flip__contenido.p-4.p-xl-5(style="display:flex;flex-wrap:wrap;align-content:center;")
-                p.text-white.text-center.mt-2.mb-2 Prueba AUDIT (Trastornos debido al Consumo de Alcohol) a la población con sospecha de patrones de consumo problemático de alcohol.
+                p.text-white.text-center.mt-2.mb-2 Prueba AUDIT (Trastornos debido al consumo de alcohol) a la población con sospecha de patrones de consumo problemático de alcohol.
         .col-md-3.col-lg-3.mb-4.mb-xl-0
           .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip2 = false")
             .indicador--hover(v-if="indicadorTarjetaFlip2")
@@ -124,8 +124,8 @@
 
     .row.mt-5
       .col-md-7.mb-2
-        p(data-aos="fade-left") En este último apartado se debe considerar el tamizaje de la conducta suicida, como se establece en la estrategia nacional de prevención de la conducta suicida en colombia (ministerio de salud y protección social, 2021)
-        p.mt-4(data-aos="fade-left") Así mismo, la resolución 1841 de 2013 (Minsalud) en la dimensión vida saludable y condiciones no transmisibles específicamente en el componente modos, condiciones y estilos de vida saludables establece como estrategia para el autocuidado la:
+        p(data-aos="fade-left") En este último apartado se debe considerar el tamizaje de la conducta suicida, como se establece en la estrategia nacional de prevención de la conducta suicida en colombia (Ministerio de Salud y Protección Social, 2021).
+        p.mt-4(data-aos="fade-left") Así mismo, la Resolución 1841 de 2013 (Minsalud) en la dimensión vida saludable y condiciones no transmisibles específicamente en el componente modos, condiciones y estilos de vida saludables establece como estrategia para el autocuidado la:
         .p-4(style="background-color:#EAEEF1;")
           p.h5(data-aos="fade-up" style="color:#3BA3F8;line-height:22px;text-align:justify;") “Información, comunicación y educación que incentive la adopción de estilos de vida saludable, el reconocimiento de riesgos y que aporte elementos que permitan responder de manera asertiva a los retos de la vida diaria; que promueva las capacidades individuales y colectivas, y la movilización de los diferentes grupos humanos que favorecen la cultura de la salud, el autocuidado y el desarrollo de habilidades en los diferentes ámbitos de la vida cotidiana”.
 
@@ -237,7 +237,7 @@
         .bloque-texto-c.color-secundario.p-4.mt-4(style="background-color: #DFEAF1;" data-aos="zoom-in")
           i.fas.fa-quote-right
           p.mb-2 Para que haya autocuidado se requiere cierto grado de desarrollo personal, mediado por un permanente fortalecimiento del autoconcepto, el autocontrol, la autoestima, la autoaceptación y la resiliencia” (p.5).
-          strong(style="float: right;left: -8%;position: relative;") Según Tobón (2015):
+          strong(style="float: right;left: -8%;position: relative;") Según Tobón (2015)
       .col-md-6
         img.mt-3(src="@/assets/curso/tema1/16.png" data-aos="zoom-in-up")
 
@@ -245,8 +245,8 @@
       .col-md-4.order-2.order-sm-1
         img(src="@/assets/curso/tema1/17.png" data-aos="zoom-in")
       .col-md-8.order-1.order-sm-2
-        .mt-3.p-3.cont_1(data-aos="fade-right" style="position:relative")
-          p(style="position:relative;left:-9%;") Esto indica que las situaciones de orden psicológico y emocional en los internos presentan un problema visible que da pie a otras situaciones como la falta de autocuidado, que genera un impacto negativo en la manera en cómo se ven hoy en día los centros penitenciarios. Cabe destacar que lo anterior se evidencia por la escasez de recursos del centro penitenciario, las condiciones de hacinamiento, los espacios insalubres, la falta de lugares adecuados para asearse y el no contar con apoyo familiar posibilita una mayor dificultad en la obtención de provisiones como ropa o útiles de aseo para llevar a cabo una adecuada higiene. También, como efectos se produce despreocupación por asearse lo que genera que en parte se presenten enfermedades como resfriados, alergias e infecciones respiratorias; incluso, hay un descuido por mantener en buen estado el sitio que ahora habitan, por ello se observa basura, hábitos insalubres y poco higiénicos por parte de los internos.
+        .mt-3.p-3.cont_1_1(data-aos="fade-right" style="position:relative")
+          p.mb-0(style="position:relative;left:-2%;font-size:15.7px;margin-top:15px;") Esto indica que las situaciones de orden psicológico y emocional en los internos presentan un problema visible que da pie a otras situaciones como la falta de autocuidado, que genera un impacto negativo en la manera en cómo se ven hoy en día los centros penitenciarios. Cabe destacar que lo anterior se evidencia por la escasez de recursos del centro penitenciario, las condiciones de hacinamiento, los espacios insalubres, la falta de lugares adecuados para asearse y el no contar con apoyo familiar posibilita una mayor dificultad en la obtención de provisiones como ropa o útiles de aseo para llevar a cabo una adecuada higiene. También, como efectos se produce despreocupación por asearse lo que genera que en parte se presenten enfermedades como resfriados, alergias e infecciones respiratorias; incluso, hay un descuido por mantener en buen estado el sitio que ahora habitan, por ello se observa basura, hábitos insalubres y poco higiénicos por parte de los internos.
 
     p.mt-5(data-aos="fade-up") Teniendo en cuenta lo anterior, es importante saber que existen algunas necesidades básicas en el ser humano que son imprescindibles cumplir y que ayudan a tener un óptimo autocuidado físico, tales como:
 
@@ -473,6 +473,14 @@ export default {
   background-color: #FFEED2
   top: -2%
   left: -15%
+.cont_1_1:before
+  content: ''
+  position: absolute
+  width: 110%
+  height: 102%
+  background-color: #FFEED2
+  top: 2%
+  left: -6%
 .cont_2:before
   content: ''
   position: absolute
@@ -497,4 +505,6 @@ export default {
  background-size: 100% 100%
 .acordion .tarjeta--azul
   background-color: #DFEAF1
+.bloque-texto-c i
+  color: #FFC35E
 </style>
