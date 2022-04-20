@@ -327,7 +327,7 @@ export default {
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: 'Yuli Marcela Gómez Tarazona',
+        nombre: 'Mayra Alejandra Alvarez',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
