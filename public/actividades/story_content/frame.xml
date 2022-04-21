@@ -13,7 +13,7 @@
         <options>
           <option name="title_enabled" value="false">
             <options>
-              <option name="title_text" value="Actividad Did&amp;#225;ctica" />
+              <option name="title_text" value="SENA - Actividad Did&amp;#225;ctica" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -1190,13 +1190,12 @@
       <string id="slide_text_chk">Texto Diapositiva</string>
       <string id="three_image_visited">visitado</string>
       <string id="three_image_audio">audio</string>
-      <string id="three_image_interaction_prev">anterior</string>
+      <string id="three_image_interaction_prev">previo</string>
       <string id="three_image_interaction_next">siguiente</string>
       <string id="three_image_camera_right">cámara movida a la derecha</string>
       <string id="three_image_camera_left">cámara movida a la izquierda</string>
       <string id="three_image_camera_down">cámara movida hacia abajo</string>
       <string id="three_image_camera_up">cámara movida hacia arriba</string>
-      <string id="three_image_tooltip">descripción emergente</string>
       <string id="three_image_label">etiqueta</string>
       <string id="three_image_interaction">interacción de la imagen de 360 grados</string>
       <string id="three_image_marker">marcador</string>
@@ -1211,15 +1210,9 @@
       <string id="three_image_play_audio">reproducir audio</string>
       <string id="three_image_play_video">reproducir video</string>
       <string id="three_image_video">video</string>
+      <string id="three_image_view_image">ver imagen</string>
       <string id="three_image_video_volume">volumen del video</string>
-      <string id="three_image_instructions">Utiliza las teclas W, A, S y D para moverte por la imagen de 360 grados. Presiona la tecla TAB para saltar a los marcadores interactivos y los puntos calientes.</string>
-      <string id="three_image_count_of_total">%count% de %total%</string>
-      <string id="acc_three_image_step_count_of_total">paso %count% de %total%</string>
-      <string id="three_image_total_items">%total% ítems</string>
-      <string id="three_image_total_item">%total% ítem</string>
-      <string id="acc_three_image_count_of_total_items_visited">%count% de %total% ítems visitados</string>
-      <string id="three_image_count_of_total_visited">%count% de %total% visitados</string>
-      <string id="acc_three_image_count_of_total_item_visited">%count% de %total% ítems visitados</string>
+      <string id="three_image_instructions">Utiliza las flechas del teclado para moverte por la imagen de 360 grados. Presiona la tecla TAB para saltar a los marcadores y puntos calientes interactivos.</string>
       <string id="three_image_item">ítem</string>
       <string id="three_image_items">ítems</string>
       <string id="three_image_of">de</string>
@@ -1278,16 +1271,16 @@
         <slidelink slideid="_player.6iPYYXYye9N" displaytext="Escena sin título" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.6iPYYXYye9N.60B7h4FKhhU" displaytext="Diapositiva sin título" expand="false" type="slide" />
-            <slidelink slideid="_player.6iPYYXYye9N.5hXpa023vaj" displaytext="1. El ingreso de las personas privadas de la libertad con afectaciones en su salud mental por consumo de sustancias psicoactivas, problemáticas familiares y sociales, ponen en riesgo la psiquis del individuo." expand="false" type="slide" />
-            <slidelink slideid="_player.6iPYYXYye9N.6cGIm5krgtN" displaytext="2. La prueba SRQ es la prueba del consumo de alcohol, tabaco y otras drogas ." expand="false" type="slide" />
-            <slidelink slideid="_player.6iPYYXYye9N.5ubzLGcveho" displaytext="3. Las emociones son un aspecto esencial en la vida del ser humano." expand="false" type="slide" />
-            <slidelink slideid="_player.6iPYYXYye9N.6pQ0dSbmh2A" displaytext="4. Lavarse los dientes y tener una buena higiene personal es una señal de salud mental. " expand="false" type="slide" />
-            <slidelink slideid="_player.6iPYYXYye9N.5f7IpP6ziak" displaytext="5. Ausencia de control de su propia vida y ausencia de expectativas del futuro, es señal de una buena señal mental." expand="false" type="slide" />
-            <slidelink slideid="_player.6iPYYXYye9N.6RKpIDAaPXR" displaytext="6. La Resolución 1889 de 2005 establece dentro de sus acciones dar a conocer a la persona privada de libertad el Sistema de Oportunidades con el que cuenta el Establecimiento de Reclusión para orientar la elección de actividades que favorezcan el desarrollo del proyecto de vida propuesto por el interno." expand="false" type="slide" />
-            <slidelink slideid="_player.6iPYYXYye9N.5wOctjUZW5h" displaytext="7. Las metas son el fin que se pretende alcanzar. Son como los peldaños de una escalera que le permiten subir poco a poco hasta llegar finalmente a donde quiere." expand="false" type="slide" />
-            <slidelink slideid="_player.6iPYYXYye9N.5z0FFNKUbDf" displaytext="8. Las metas a mediano plazo: son aquellas que se proponen a 2 o 3 años." expand="false" type="slide" />
-            <slidelink slideid="_player.6iPYYXYye9N.6BQMlUlbHma" displaytext="9. Un estilo de afrontamiento centrado en la emoción tiene como objeto la resolución de la situación o la realización de conductas que modifiquen la fuente de estrés. " expand="false" type="slide" />
-            <slidelink slideid="_player.6iPYYXYye9N.5Xuib3emaVY" displaytext="10. La emoción es la regulación de los aspectos emocionales e intento de mantener el equilibrio afectivo, tienden a ser utilizadas." expand="false" type="slide" />
+            <slidelink slideid="_player.6iPYYXYye9N.6EdoTcI4Roc" displaytext="El ingreso de las personas privadas de la libertad con afectaciones en su salud mental por consumo de sustancias psicoactivas, problemáticas familiares y sociales, ponen en riesgo la psiquis del individuo." expand="false" type="slide" />
+            <slidelink slideid="_player.6iPYYXYye9N.6f4utuStGex" displaytext="La prueba SRQ es la prueba del consumo de alcohol, tabaco y otras drogas." expand="false" type="slide" />
+            <slidelink slideid="_player.6iPYYXYye9N.6BkXeqty0u8" displaytext="Las emociones son un aspecto esencial en la vida del ser humano." expand="false" type="slide" />
+            <slidelink slideid="_player.6iPYYXYye9N.5XxQ9t9ClEU" displaytext="Lavarse los dientes y tener una buena higiene personal es una señal de salud mental. " expand="false" type="slide" />
+            <slidelink slideid="_player.6iPYYXYye9N.6AtetOy4MNI" displaytext="Ausencia de control de su propia vida y ausencia de expectativas del futuro, es señal de una buena señal mental." expand="false" type="slide" />
+            <slidelink slideid="_player.6iPYYXYye9N.69HxAUBJDeQ" displaytext="La Resolución 1889 de 2005 establece dentro de sus acciones dar a conocer a la persona privada de libertad el Sistema de Oportunidades con el que cuenta el Establecimiento de Reclusión para orientar la elección de actividades que favorezcan el desarrollo del proyecto de vida propuesto por el interno." expand="false" type="slide" />
+            <slidelink slideid="_player.6iPYYXYye9N.5jQO7zh90dP" displaytext="Las metas son el fin que se pretende alcanzar. Son como los peldaños de una escalera que le permiten subir poco a poco hasta llegar finalmente a donde quiere." expand="false" type="slide" />
+            <slidelink slideid="_player.6iPYYXYye9N.5mlbSPThPbl" displaytext="Las metas a mediano plazo: son aquellas que se proponen a 2 o 3 años." expand="false" type="slide" />
+            <slidelink slideid="_player.6iPYYXYye9N.5sF8aEYDJO0" displaytext="Un estilo de afrontamiento centrado en la emoción tiene como objeto la resolución de la situación o la realización de conductas que modifiquen la fuente de estrés. " expand="false" type="slide" />
+            <slidelink slideid="_player.6iPYYXYye9N.6Ew7nrHp4TP" displaytext="La emoción es la regulación de los aspectos emocionales e intento de mantener el equilibrio afectivo, tienden a ser utilizadas." expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
